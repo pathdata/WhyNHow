@@ -1,5 +1,5 @@
 # ============================================================================
-# COMPREHENSIVE QC ANALYSIS FROM 10X H5 FILE
+# COMPREHENSIVE QC ANALYSIS FROM 10X (CHROMIUM) H5 FILE
 # Including MT genes detection and distribution plots
 # ============================================================================
 
@@ -362,3 +362,4 @@ cat("✅ Saved: qc_plots\\80\\qc_summary_report.txt\n")
 cat("\n", strrep("=", 70), "\n")
 cat("ALL DONE! 🎉\n")
 cat(strrep("=", 70), "\n")
+
