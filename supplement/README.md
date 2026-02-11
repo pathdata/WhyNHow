@@ -8,3 +8,7 @@ This directory contains the supplementary files required to analyze the 2023 CAR
 
 **CARTcell_barcodes**: Barcodes that are CAR T-cells with cell type labels.
 
+Reference Literature
+
+https://www.nature.com/articles/s41591-023-02415-3
+
