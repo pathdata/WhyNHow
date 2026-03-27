@@ -32,8 +32,8 @@ All three scripts live in the parent **`code/`** directory. Run them from that d
 
 | Option | Default | Notes |
 |--------|---------|--------|
-| `--input-dir` | `code/sc_output` | Directory containing `.h5ad` files |
-| `--output-dir` | `code/sc_output` | Where to save the PNG |
+| `--input-dir` | `WhyNHow` | Directory containing `.h5ad` files |
+| `--output-dir` | `sc_output` | Where to save the PNG |
 | `--patients` | `P01 P03` | Panel order |
 | `--color-by` | `gex_sample` | `obs` column for point colors (e.g. `orig.ident`, `seurat_clusters` if present) |
 | `--out-name` | `umap_by_patient_P01_P03.png` | Output filename |
@@ -43,7 +43,7 @@ All three scripts live in the parent **`code/`** directory. Run them from that d
 **Example**
 
 ```bash
-conda run -n trans python 06_b_visualize_umap_by_patientID.py --input-dir sc_output --output-dir sc_output
+conda run -n trans python 06_b_visualize_umap_by_patientID.py --input-dir WhyNHow --output-dir sc_output
 ```
 
 ---
@@ -79,7 +79,7 @@ If the intersection is empty, the script may write `{out_prefix}_per_patient_uni
 **Example**
 
 ```bash
-conda run -n trans python 06_c_visualise_umap_by_mgenes.py --input-dir sc_output --output-dir sc_output --top-n 15
+conda run -n trans python 06_c_visualise_umap_by_mgenes.py --input-dir WhyNHow --output-dir sc_output --top-n 15
 ```
 
 ---
@@ -109,7 +109,7 @@ CD3D, CD3E, CD4, CD8A, CD8B, GZMA, GZMB, PRF1, NKG7, GNLY, PDCD1, HAVCR2, LAG3, 
 **Example**
 
 ```bash
-conda run -n trans python 06_c1_visualise_umap_by_genelist.py --input-dir sc_output --output-dir sc_output
+conda run -n trans python 06_c1_visualise_umap_by_genelist.py --input-dir WhyNHow --output-dir sc_output
 ```
 
 ---
