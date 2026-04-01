@@ -3,7 +3,7 @@ TCGA BRCA Multimodal Integration
 =================================
 RNA-seq + Clinical Data (matched by patient ID)
 
-Run with:   python TCGA_BRCA_Multimodal.py
+Run with:   python TCGA_BRCA_Multimodal_refined.py
 Requires:   tcga_brca_counts_table.txt
             tcga_brca_clinical_RNASeq.txt
             tcga_brca_clinical.txt
